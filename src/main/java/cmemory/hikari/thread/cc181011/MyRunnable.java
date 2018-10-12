@@ -11,6 +11,7 @@ public class MyRunnable implements Runnable {
     public void run(){
         try {
             for (int i = 0; i < 500000; i++) {
+//                Thread.sleep(10000);
                 if(interrupted()){
                     System.out.println("程序中断 -> 退出");
                     throw new InterruptedException();
