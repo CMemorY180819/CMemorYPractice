@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="593e89ea-55cb-40b2-9ae1-82e3c26c9dfa" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181011/MyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cmemory/hikari/thread/cc181011/MyRunnableTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181011/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181011/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cmemory/hikari/thread/cc181011/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cmemory/hikari/thread/cc181011/MyThread.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,14 +22,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="872" />
+          <entry key="java" value="883" />
           <entry key="md" value="66" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="872" />
+          <entry key="JAVA" value="883" />
           <entry key="Markdown" value="66" />
           <entry key="XML" value="1" />
         </counts>
@@ -88,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/cmemory/hikari/thread/cc181011/MyRunnableTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="360">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -128,8 +124,8 @@
         <option value="$PROJECT_DIR$/src/test/java/cmemory/hikari/thread/cc181011/MyThreadTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181011/MyThread.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cmemory/hikari/thread/cc181011/MyRunnableTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181011/MyRunnable.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cmemory/hikari/thread/cc181011/MyRunnableTest.java" />
       </list>
     </option>
   </component>
@@ -307,7 +303,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539246545078" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539306887776" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
@@ -377,12 +373,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539225922392</updated>
-      <workItem from="1539225924491" duration="10509000" />
+      <workItem from="1539225924491" duration="13940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10509000" />
+    <option name="totallyTimeSpent" value="13940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="5" y="23" width="1624" height="1027" extended-state="6" />
@@ -405,7 +401,7 @@
       <window_info anchor="bottom" id="调试" order="7" weight="0.32941177" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.31336898" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.31336898" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -498,8 +494,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cmemory/hikari/thread/cc181011/MyRunnableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="360">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
