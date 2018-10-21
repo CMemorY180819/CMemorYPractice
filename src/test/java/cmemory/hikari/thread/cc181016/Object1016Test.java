@@ -14,6 +14,9 @@ public class Object1016Test {
         ThreadB1016 threadB1016 = new ThreadB1016(object1016, objectService1016);
         threadB1016.setName("juno");
         threadB1016.start();
+
+        Thread t = new Thread(() -> new Object1016().send());
+        t.start();
     }
 
 }
