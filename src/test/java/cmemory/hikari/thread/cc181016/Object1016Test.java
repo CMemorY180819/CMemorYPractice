@@ -17,6 +17,10 @@ public class Object1016Test {
 
         Thread t = new Thread(() -> new Object1016().send());
         t.start();
+
+        String a = "hikari";
+        String b = "hikari";
+        System.out.println(a == b);
     }
 
 }
