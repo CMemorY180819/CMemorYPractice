@@ -8,13 +8,26 @@ public class Practice1025Test {
     // notify并不会立即释放锁
     public static void main(String[] args) {
         Object lock = new Object();
-        new Thread(() -> new Practice1025().threadWait(lock)).start();
+
+//        while (true) {
+//            new Thread(() -> new Practice1025().p(lock)).start();
+//        try {
+//            Thread.sleep(100);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+//            new Thread(() -> new Practice1025().c(lock)).start();
+//        }
+        Practice1025 p = new Practice1025();
+        new Thread(() -> p.joinA(p)).start();
+        Thread a = new Thread(() -> p.joinB(p));
+        a.start();
         try {
-            Thread.sleep(100);
+            a.join(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        new Thread(() -> new Practice1025().threadNotify(lock)).start();
+        System.out.println("hikarisama万岁！");
     }
 
 }

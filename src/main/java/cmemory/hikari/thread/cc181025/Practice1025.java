@@ -5,6 +5,12 @@ package cmemory.hikari.thread.cc181025;
  */
 public class Practice1025 {
 
+    String value = "";
+
+    public Practice1025(){
+        super();
+    }
+
     public void threadWait(Object lock) {
         synchronized (lock) {
             try {
@@ -28,4 +34,61 @@ public class Practice1025 {
             }
         }
     }
+
+    public void p(Object lock) {
+        try {
+            synchronized (lock) {
+                if(!ValueObject1025.value.equals("")) {
+                    System.out.println(value);
+                    lock.wait();
+                }
+                String now = System.currentTimeMillis() + "_" + System.nanoTime();
+                System.out.println("set值是: " + now);
+                ValueObject1025.value = now;
+                lock.notify();
+            }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void c(Object lock) {
+        try {
+            synchronized (lock) {
+                if(ValueObject1025.value.equals("")) {
+                    lock.wait();
+                }
+                System.out.println("get值是: " + ValueObject1025.value);
+                ValueObject1025.value = "";
+                lock.notify();
+            }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void joinB(Practice1025 p) {
+        synchronized (p) {
+            System.out.println("start B");
+            try {
+                Thread.sleep(5000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println("end B");
+        }
+    }
+
+    public void joinA (Practice1025 p) {
+        synchronized (p) {
+            System.out.println("start A");
+            try {
+                Thread.sleep(5000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println("end A");
+        }
+    }
+
 }
