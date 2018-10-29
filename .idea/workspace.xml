@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="593e89ea-55cb-40b2-9ae1-82e3c26c9dfa" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181025/ValueObject1025.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181029/Practice181029.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181029/ThreadLocalExt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cmemory/hikari/thread/cc181029/Practice181029Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181025/Practice1025.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181025/Practice1025.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cmemory/hikari/thread/cc181025/Practice1025Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cmemory/hikari/thread/cc181025/Practice1025Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,19 +19,19 @@
     <session id="963116384">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
           <entry key="iml" value="3" />
-          <entry key="java" value="5511" />
+          <entry key="java" value="5905" />
           <entry key="md" value="1332" />
           <entry key="vmoptions" value="13" />
           <entry key="xml" value="1" />
@@ -40,7 +40,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="5511" />
+          <entry key="JAVA" value="5905" />
           <entry key="Markdown" value="1332" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="XML" value="1" />
@@ -51,7 +51,7 @@
           <entry key="class" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="52" />
+          <entry key="java" value="58" />
           <entry key="md" value="3" />
           <entry key="vmoptions" value="1" />
         </counts>
@@ -60,7 +60,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="52" />
+          <entry key="JAVA" value="58" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
@@ -70,22 +70,82 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181016/Object1016.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181025/Practice1025.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="366">
+              <caret line="71" column="42" lean-forward="true" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
+              <folding>
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181029/ThreadLocalExt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181025/Practice1025.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181029/Practice181029.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="81" column="40" lean-forward="true" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
+            <state relative-caret-position="268">
+              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
               <folding>
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cmemory/hikari/thread/cc181029/Practice181029Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+              <folding>
+                <element signature="e#8176#8177#0" expanded="true" />
+                <element signature="e#8216#8217#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Lock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="164" column="19" lean-forward="true" selection-start-line="164" selection-start-column="19" selection-end-line="164" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/ThreadLocal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="343" column="9" lean-forward="true" selection-start-line="343" selection-start-column="9" selection-end-line="343" selection-end-column="9" />
+              <folding>
+                <element signature="e#11458#11459#0" expanded="true" />
+                <element signature="e#11505#11506#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,8 +163,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/cmemory/hikari/thread/cc181025/Practice1025Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            <state relative-caret-position="414">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -113,7 +173,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/cmemory/hikari/thread/cc181016/Object1016Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -167,6 +227,9 @@
         <option value="$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181025/ValueObject1025.java" />
         <option value="$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181025/Practice1025.java" />
         <option value="$PROJECT_DIR$/src/test/java/cmemory/hikari/thread/cc181025/Practice1025Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181029/ThreadLocalExt.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cmemory/hikari/thread/cc181029/Practice181029Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181029/Practice181029.java" />
       </list>
     </option>
   </component>
@@ -194,7 +257,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1633" />
     <option name="height" value="1027" />
@@ -227,7 +290,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,18 +357,7 @@
               <item name="cmemory" type="462c0819:PsiDirectoryNode" />
               <item name="hikari" type="462c0819:PsiDirectoryNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="cc181021" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CMemorYPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CMemorYPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cmemory" type="462c0819:PsiDirectoryNode" />
-              <item name="hikari" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="cc181025" type="462c0819:PsiDirectoryNode" />
+              <item name="cc181029" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CMemorYPractice" type="b2602c69:ProjectViewProjectNode" />
@@ -373,14 +425,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540460635095" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540820933452" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
@@ -402,20 +454,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Practice1025Test">
-    <configuration name="LinkStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cmemory.hikari.thread.cc181019.LinkStart" />
-      <module name="CMemorYPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cmemory.hikari.thread.cc181019.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Practice181029Test">
     <configuration name="Object1016Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cmemory.hikari.thread.cc181016.Object1016Test" />
       <module name="CMemorYPractice" />
@@ -468,6 +507,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Practice181029Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cmemory.hikari.thread.cc181029.Practice181029Test" />
+      <module name="CMemorYPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cmemory.hikari.thread.cc181029.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConcurrencyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="CMemorYPractice" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cmemory.hikari.ConcurrencyApplication" />
@@ -476,20 +528,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.ConcurrencyApplication" />
       <item itemvalue="Application.Object1016Test" />
-      <item itemvalue="Application.LinkStart" />
       <item itemvalue="Application.OutClass1019Test" />
       <item itemvalue="Application.Practice1021Test" />
       <item itemvalue="Application.Practice1025Test" />
-      <item itemvalue="Spring Boot.ConcurrencyApplication" />
+      <item itemvalue="Application.Practice181029Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Practice181029Test" />
         <item itemvalue="Application.Practice1025Test" />
         <item itemvalue="Application.Object1016Test" />
         <item itemvalue="Application.Practice1021Test" />
         <item itemvalue="Application.OutClass1019Test" />
-        <item itemvalue="Application.LinkStart" />
       </list>
     </recent_temporary>
   </component>
@@ -509,18 +561,19 @@
       <workItem from="1539853285435" duration="27397000" />
       <workItem from="1540275400856" duration="598000" />
       <workItem from="1540278263934" duration="623000" />
-      <workItem from="1540437041683" duration="14431000" />
+      <workItem from="1540437041683" duration="15450000" />
+      <workItem from="1540813370309" duration="4183000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74596000" />
+    <option name="totallyTimeSpent" value="79798000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1633" height="1027" extended-state="0" />
+    <frame x="-1" y="23" width="1628" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2545569" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25788146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -538,7 +591,7 @@
       <window_info anchor="bottom" id="调试" order="7" weight="0.32941177" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.47700533" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.47700533" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -790,20 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181016/Object1016.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cmemory/hikari/thread/cc181016/Object1016Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -812,6 +851,13 @@
             <element signature="e#15704#15705#0" expanded="true" />
             <element signature="e#15770#15771#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181016/Object1016.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -824,18 +870,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cmemory/hikari/thread/cc181025/Practice1025Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="414">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cmemory/hikari/thread/cc181016/Object1016Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181025/Practice1025.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="81" column="40" lean-forward="true" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
+        <state relative-caret-position="366">
+          <caret line="71" column="42" lean-forward="true" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
           <folding>
             <element signature="e#180#181#0" expanded="true" />
             <element signature="e#203#204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="343" column="9" lean-forward="true" selection-start-line="343" selection-start-column="9" selection-end-line="343" selection-end-column="9" />
+          <folding>
+            <element signature="e#11458#11459#0" expanded="true" />
+            <element signature="e#11505#11506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181029/ThreadLocalExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+          <folding>
+            <element signature="e#8176#8177#0" expanded="true" />
+            <element signature="e#8216#8217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="164" column="19" lean-forward="true" selection-start-line="164" selection-start-column="19" selection-end-line="164" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cmemory/hikari/thread/cc181029/Practice181029Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181029/Practice181029.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
