@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="593e89ea-55cb-40b2-9ae1-82e3c26c9dfa" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181029/Practice181029.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181029/ThreadLocalExt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cmemory/hikari/thread/cc181029/Practice181029Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181029/Practice181029.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181029/Practice181029.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,7 +28,7 @@
         <counts>
           <entry key="dummy" value="4" />
           <entry key="iml" value="3" />
-          <entry key="java" value="5905" />
+          <entry key="java" value="5908" />
           <entry key="md" value="1332" />
           <entry key="vmoptions" value="13" />
           <entry key="xml" value="1" />
@@ -40,7 +37,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="5905" />
+          <entry key="JAVA" value="5908" />
           <entry key="Markdown" value="1332" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="XML" value="1" />
@@ -98,8 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181029/Practice181029.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            <state relative-caret-position="204">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -432,7 +429,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540820933452" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540861429243" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
@@ -562,12 +559,12 @@
       <workItem from="1540275400856" duration="598000" />
       <workItem from="1540278263934" duration="623000" />
       <workItem from="1540437041683" duration="15450000" />
-      <workItem from="1540813370309" duration="4183000" />
+      <workItem from="1540813370309" duration="6159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79798000" />
+    <option name="totallyTimeSpent" value="81774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1628" height="1027" extended-state="6" />
@@ -591,7 +588,7 @@
       <window_info anchor="bottom" id="调试" order="7" weight="0.32941177" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.47700533" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.47700533" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -942,8 +939,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cmemory/hikari/thread/cc181029/Practice181029.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        <state relative-caret-position="204">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

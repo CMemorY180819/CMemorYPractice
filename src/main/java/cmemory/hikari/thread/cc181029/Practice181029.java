@@ -34,7 +34,7 @@ public class Practice181029 {
             for (int i = 0; i < 10; i++) {
                 System.out.println("awaitB前 " + Thread.currentThread().getName() + " : " + i);
             }
-            Thread.sleep(3000);
+            Thread.sleep(1000);
             conditionB.await();
             for (int j = 0; j < 10; j++) {
                 System.out.println("awaitB后 " + Thread.currentThread().getName() + " : " + j);
@@ -49,7 +49,7 @@ public class Practice181029 {
     public void runA_signal() {
         try {
             lock.lock();
-            conditionA.signalAll();
+            conditionA.signal();
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
